@@ -5,6 +5,7 @@ import 'package:udemy_advanced_flutter_course/presentation/forgot_password/forgo
 import 'package:udemy_advanced_flutter_course/presentation/home/home_view.dart';
 import 'package:udemy_advanced_flutter_course/presentation/login/login_view.dart';
 import 'package:udemy_advanced_flutter_course/presentation/register/register_view.dart';
+import 'package:udemy_advanced_flutter_course/presentation/resources/strings_manager.dart';
 import 'package:udemy_advanced_flutter_course/presentation/spalsh/splash_view.dart';
 
 class Routes {
@@ -37,10 +38,10 @@ class RouteGenerator {
     return MaterialPageRoute(
       builder: (_) => Scaffold(
         appBar: AppBar(
-          title: Text("No Route Found!"),
+          title: Text(AppStrings.noRouteFound),
         ),
         body: Center(
-          child: Text("No Route Found!"),
+          child: Text(AppStrings.noRouteFound),
         ),
       ),
     );
