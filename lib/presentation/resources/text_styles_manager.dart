@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:udemy_advanced_flutter_course/presentation/font_manager.dart';
+import 'package:udemy_advanced_flutter_course/presentation/resources/font_manager.dart';
 
 TextStyle _getStyle(
   String fontFamily,

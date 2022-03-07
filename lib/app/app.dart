@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:udemy_advanced_flutter_course/presentation/theme_manager.dart';
+import 'package:udemy_advanced_flutter_course/presentation/resources/theme_manager.dart';
 
 class MyApp extends StatefulWidget {
   MyApp._internal(); //Private named constractor
